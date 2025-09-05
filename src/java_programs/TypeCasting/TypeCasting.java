@@ -1,4 +1,4 @@
-package java_programs;
+package java_programs.TypeCasting;
 
 public class TypeCasting {
     public static void main(String[] args) {
