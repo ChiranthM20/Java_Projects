@@ -7,7 +7,7 @@ public class BlockScope {
         {
             // int a = 30  --> Error -> a is already initialized outside the block in the same method, so cannot reinitialize it
             System.out.println(a);
-            a = 40;
+            a = 40; // values can be changed
             System.out.println(a);
 
             int c = 30;
