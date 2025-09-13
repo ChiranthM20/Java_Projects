@@ -1,4 +1,4 @@
-package java_programs.LINEAR_SEARCH;
+package java_programs.SEARCHING_ALGORITHMS.LINEAR_SEARCH;
 
 import java.util.Scanner;
 
