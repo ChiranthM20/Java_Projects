@@ -3,7 +3,7 @@ package practice_problems.BinarySearch_InterviewQuestions;
 public class SmallestLetterGreaterThanTarget {
     public static void main(String[] args) {
         char[] arr = {'a', 'd', 'g', 'm', 'y', 'z'};
-        char target = 'z';
+        char target ='z';
         System.out.println(Binary(arr, target));
     }
     static char Binary(char[] arr, char target){
