@@ -1,4 +1,4 @@
-package java_programs.ARRAYS.Practice_problems;
+package java_programs.ARRAYS;
 
 import java.util.Arrays;
 import java.util.HashMap;
