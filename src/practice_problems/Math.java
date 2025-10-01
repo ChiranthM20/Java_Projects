@@ -18,5 +18,7 @@ public class Math {
         int result = a+b;
         System.out.println("result : " + result);
 
+        System.out.println("Done!");
+
     }
 }
