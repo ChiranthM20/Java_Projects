@@ -1,11 +1,15 @@
 package practice_problems;
 
+import java.util.Scanner;
+
 public class swap {
     public static void main(String[] args){
-        int a,b,temp;
+        Scanner Sc=new Scanner(System.in);
+        int a = Sc.nextInt();
+        int b = Sc.nextInt();
+        int temp;
 
-        a=10;
-        b=20;
+
         System.out.println("Before Swapping : a="+a+" "+"b="+b);
 
         temp=a;
