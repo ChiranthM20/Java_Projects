@@ -2,6 +2,7 @@ package practice_problems;
 
 public class FibonacciNumber {
     public static void main(String[] args) {
+
         System.out.println("*"+fibonacciNumber(5));
     }
     static int fibonacciNumber(int n){
