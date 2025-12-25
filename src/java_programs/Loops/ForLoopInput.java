@@ -9,7 +9,7 @@ public class ForLoopInput{
         System.out.print("Enter a number : ");
         int n = input.nextInt();
         for(int i=1; i<=n; i++){
-            System.out.print(i + " ");
+            System.out.print(i);
             System.out.println("Hello world");
         }
     }
