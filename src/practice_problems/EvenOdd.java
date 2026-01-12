@@ -13,9 +13,9 @@ public class EvenOdd {
         System.out.print("Enter a number: ");
         int a = input.nextInt();
         if (a % 2 ==0){
-            System.out.print("even");
+            System.out.print("even!");
         }else{
-            System.out.print("odd");
+            System.out.print("odd!");
         }
 
     }
