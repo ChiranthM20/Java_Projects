@@ -34,7 +34,7 @@ public class Calculator {
             else{
                 System.out.println("Invalid operator");
             }
-            System.out.println(ans);
+            System.out.println("Ans : "+ans);
         }
     }
 }
