@@ -8,7 +8,7 @@ package practice_problems;
 import java.util.Scanner;
 
 
-public class Math {
+public class MyMath {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter first number: ");
