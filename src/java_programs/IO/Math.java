@@ -15,7 +15,6 @@ public class Math {
         System.out.println("The sum of A and B is "+Sum);
         System.out.println("The difference of A and B is "+(A-B));
         System.out.println("The product of A and B is "+(A*B));
-        System.out.println("The quotient of A and B is "+(A/B));
 
     }
 }
