@@ -11,10 +11,16 @@ public class Classes_Objects {
         Students Student2 = new Students();
         Student2.marks = 90;
         Student2.name = "Chiru";
-        Student2.age = 21;
+
 
         System.out.println("Student1 --> name : " + Student1.name + ", age : " + Student1.age);
         System.out.println("Student2 --> name : " + Student2.name + ", age : " + Student2.age);
+
+        System.out.println(Student2.age); // Checks if the object Student2's age is declared
+                                          // if not present it will check the class and print its value
+                                          // by default if no value is declared it will print 0
+
+
     }
 
 
@@ -24,4 +30,5 @@ class Students {
     String name;
     int age;
 }
+
 
