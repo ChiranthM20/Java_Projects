@@ -9,6 +9,8 @@ public class Constructors {
         System.out.println(employee1.name);
         System.out.println(employee2.name);
 
+        employee1.changeName("Chiru!!");
+
         employee1.greeting();
 
     }
@@ -21,9 +23,15 @@ class Employee{
     void greeting(){
         System.out.println("Hello! My name is "+name);
     }
+
+    void changeName(String name){
+        this.name = name;
+    }
+
     Employee(String name, int id, int salary) {
-        this.name = "Chiranth";
-        this.id = 113;
-        this.salary = 40000;
+        this.name = name;
+        this.id = id;
+        this.salary = salary;
+        System.out.println("Name : "+name+ ", ID : "+id+ ", Salary : "+salary);
     }
 }
