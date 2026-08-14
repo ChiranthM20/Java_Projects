@@ -12,6 +12,8 @@ public class Classes_Objects {
         Student2.marks = 90;
         Student2.name = "Chiru";
 
+        //Student2.salary   --> cannot add salary because salary is not created in class Students
+
 
         System.out.println("Student1 --> name : " + Student1.name + ", age : " + Student1.age);
         System.out.println("Student2 --> name : " + Student2.name + ", age : " + Student2.age);
