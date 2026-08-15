@@ -1,6 +1,4 @@
-package java_programs.OOPS;
-
-import java.util.Arrays;
+package java_programs.OOPS.ClassesAndObjects;
 
 public class main {
     public static void main(String[] args) {

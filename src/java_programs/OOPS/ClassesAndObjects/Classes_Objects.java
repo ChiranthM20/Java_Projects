@@ -1,4 +1,4 @@
-package java_programs.OOPS;
+package java_programs.OOPS.ClassesAndObjects;
 
 public class Classes_Objects {
     public static void main(String[] args){

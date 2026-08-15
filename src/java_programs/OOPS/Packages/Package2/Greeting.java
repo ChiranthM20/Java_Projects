@@ -1,4 +1,4 @@
-package java_programs.Packages.Package1.A;
+package java_programs.OOPS.Packages.Package2;
 
 import java.util.Scanner;
 
@@ -10,5 +10,8 @@ public class Greeting{
         System.out.print("Please enter you name : ");
         String name = input.nextLine();
         System.out.println("Welcome "+name);
+    }
+    public static void message(){
+        System.out.println("Hello World");
     }
 }

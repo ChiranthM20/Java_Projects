@@ -1,4 +1,4 @@
-package java_programs.Packages.Package2;
+package java_programs.OOPS.Packages.Package1.A;
 
 import java.util.Scanner;
 
