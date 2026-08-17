@@ -29,7 +29,7 @@ class Student {
         this.rollno = rollno;
         this.name = name;
         Student.year = 4;
-        Student.college = "Garden City University";
+        Student.college = "GARDEN CITY UNIVERSITY";
         Student.population +=1;
     }
 
