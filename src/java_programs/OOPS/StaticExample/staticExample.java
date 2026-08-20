@@ -1,3 +1,5 @@
+//A static method belongs to the class, while a non-static method belongs to an object.
+
 package java_programs.OOPS.StaticExample;
 
 public class staticExample {
@@ -16,6 +18,38 @@ public class staticExample {
         System.out.println("Hello "+student1.name+" there are "+ Student.population +" Students in your class");
 
         // Year and college name is same for everyone because they are from same college and same yeargit ststus
+
+        fun();
+    }
+    static void fun(){
+        // STATIC METHOD:
+        // fun() belongs to the class, not to any particular object.
+        // Therefore, fun() can be called without creating an object.
+
+        // Since greeting() is NON-STATIC (belongs to an object),
+        // we cannot directly call greeting() here like: greeting();
+
+        // We must create an object first and use that object
+        // to call the non-static greeting() method.
+
+        staticExample obj = new staticExample();
+        obj.greeting();
+
+        System.out.println("hello");
+    }
+
+    void greeting(){
+        System.out.println("Hello");
+
+        // NON-STATIC METHOD:
+        // greeting() belongs to an object of staticExample.
+        // Therefore, we need an object to call greeting(),
+        // for example: obj.greeting();
+        //
+        // A non-static method CAN directly call a static method
+        // because the static method belongs to the class,
+        // so no specific object is required.
+
     }
 }
 class Student {
@@ -32,6 +66,8 @@ class Student {
         Student.college = "GARDEN CITY UNIVERSITY";
         Student.population +=1;
     }
+
+
 
 
     void display(){
